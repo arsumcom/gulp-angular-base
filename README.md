@@ -16,12 +16,12 @@
 ### Configure ssh
 Configure `vim ~/.ssh/config`
 ```
-Host jopwellfeeds-prod
+Host myapp-prod
     User ubuntu
-    HostName feeds.jopwell.com
-    IdentityFile ~/keys/knotwork.pem
+    HostName myapp
+    IdentityFile ~/keys/mykey.pem
 
 ```
 
-### Dev
-`gulp deploy-dev` - For development http://feedsdev.introstellar.com
+### Dev deploy
+`gulp deploy-dev`
