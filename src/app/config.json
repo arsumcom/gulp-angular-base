@@ -1,0 +1,23 @@
+{
+  "local": {
+    "config": {
+      "backend": "",
+      "mixpanelKey": "",
+      "debug": true
+    }
+  },
+  "dev": {
+    "config": {
+      "backend": "",
+      "mixpanelKey": "",
+      "debug": false
+    }
+  },
+  "production": {
+    "config": {
+      "backend": "",
+      "mixpanelKey": "",
+      "debug": false
+    }
+  }
+}
