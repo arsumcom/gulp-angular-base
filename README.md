@@ -6,7 +6,7 @@
 
 `bower install` to get all bower components
 
-`find ./ -type f -exec sed -i -e 's/myAppName/newAppName/g' {} \;` Replace with your app name
+`find ./ -type f -exec sed -i '' -e 's/myAppName/newAppName/g' {} \;` Replace with your app name
 
 
 ## Run
